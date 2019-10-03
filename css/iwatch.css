@@ -1,0 +1,518 @@
+body{
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+
+}
+nav{
+  margin-top: 5px;
+height: 100px;
+background: rgb(0,0,0,0);
+position: relative;
+}
+
+.logo{
+height: 60px;
+width: 60px;
+position: absolute;
+top:18%;
+left: 15%;
+}
+
+ul{
+  left: 50%;
+  top: 25%;
+  position: absolute;
+
+}
+ul li{
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 16px;
+
+}
+ul li a{
+  color:rgb(144, 148, 151 );
+}
+
+.con1{
+  margin-top: -120px;
+  background: url('/Web/Project/Tapeer/img/background1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+}
+.left-col{
+  margin-top: 15%;
+  transition: 1s;
+  opacity: 0;
+  transform: translateY(-40px);
+}
+.gambarJam{
+transform: rotateZ(20deg);
+}
+.right-col{
+  transition: 1s;
+  opacity: 0;
+  transform: translateY(-40px);
+  margin-top: 20%;
+}
+div .get-started{
+  font-size: 60px;
+  margin-left:10%;
+  color:rgb( 40, 53, 147  );
+}
+div .p-lopsum{
+  margin-top: 38px;
+  font-size: 18px;
+  margin-left:10%;
+  color:rgb( 121, 125, 127);
+}
+
+.left-button{
+  transition: .9s;
+  margin-top: 38px;
+  font-size: 15px;
+  margin-left:10%;
+  color:white;
+  background: rgb(165, 105, 189);
+  height: 60px;
+  width: 100%;
+}
+.left-button:hover{
+  transition: .9s;
+  color:rgb(165, 105, 189);
+  background: white;
+  border: 2px solid rgb(165, 105, 189);
+
+}
+.right-button:hover{
+  transition: .9s;
+  color:white;
+  background: rgb(165, 105, 189);
+}
+.right-button{
+  transition: .9s;
+  margin-top: 38px;
+  font-size: 15px;
+  margin-left:10%;
+  color:rgb(165, 105, 189);
+  border: 2px solid rgb(165, 105, 189);
+  background: rgb(255,255,255,0);
+  height: 60px;
+  width: 100%;
+}
+.bunglon{
+
+margin-top: -10px;
+height: 80px;
+background:white;
+position: relative;
+z-index:999;
+}
+.con2 .beatifull{
+  font-size: 33px;
+}
+.con2{
+
+  background: url('/Web/Project/Tapeer/img/backgroundWeb2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
+.par2{
+  transition: 1.5s;
+  opacity: 0;
+  transform: translateY(40px);
+}
+.par3{
+  transition: 1.5s;
+  opacity: 0;
+  transform: translate(40px, 0) rotate(15deg);
+}
+.par4{
+  transition: 1.5s;
+  opacity: 0;
+  transform: translate(40px, 0) rotate(-15deg);
+}
+.par5{
+  transition: 1.5s;
+  opacity: 0;
+  transform: translate(40px, 0) rotate(-15deg);
+}
+.par6{
+  transition: 1.5s;
+  opacity: 0;
+  transform: translate(40px, 0) rotate(15deg);
+}
+.par7{
+  transition: 1.5s;
+  opacity: 0;
+  transform: translateY(40px);
+}
+.par8{
+  transition: 1.5s;
+  opacity: 0;
+  transform: translate(40px, 0) rotate(-15deg);
+}
+.par9{
+  transition: 1.5s;
+  opacity: 0;
+  transform: translate(40px,0) rotate(15deg);
+}
+.par10{
+  transition: 1.5s;
+  opacity: 0;
+  transform: translateY(40px);
+}
+.par11{
+  transition: 1.5s;
+  opacity: 0;
+  transform: translateY(80px);
+}
+.con2 .atas{
+  margin-top: 100px;
+}
+.con2 .tengah{
+  margin-top: 20px;
+}
+.con2 .p1{
+  text-align: justify;
+  font-size: 18px;
+  color:rgb( 121, 125, 127);
+}
+.con2 .p2{
+  margin-top:-17px;
+  text-align: center;
+  font-size: 18px;
+  color:rgb( 121, 125, 127);
+}
+
+.con2 .gambar1{
+  width:70px;
+  padding-top: 30px;
+  padding-left:32px;
+
+}
+
+
+.con2 .rounded-gmbr1{
+  background: white;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+.con2 .icon{
+margin-top: 40px;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+}
+.con2 .icon h3{
+  font-size: 18px;
+}
+
+.con2 .icon p{
+  margin-top: -20px;
+  text-align: center;
+  color:rgb(121, 125, 127)
+}
+.upperCol{
+  margin-top: 80px;
+}
+.con2 .lock{
+  width:70px;
+  padding-top: 25px;
+  padding-left:32px
+}
+.con3{
+  background: url('/Web/Project/Tapeer/img/backgroundWeb3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1500px;
+  position: relative;
+}
+.buled{
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: rgb(255, 205, 210);
+  margin-left: -300px;
+  opacity: 0.9;
+  z-index: 0;
+  transition: 1s;
+transform: translateY(0);
+}
+.buled2{
+  z-index: 0;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: rgb(204, 255, 255 );
+  top: 50%;
+  right: -100px;
+  opacity: 0.9;
+  z-index: 0;
+  transition: 1s;
+transform: translateY(0);
+}
+.con3 h2{
+  font-size: 30px;
+}
+.con3 .p1 {
+  margin-top: 20px;
+  font-size: 18px;
+  color:rgb(113, 125, 126);
+}
+.con3 .p2 {
+  margin-top: 20px;
+  font-size: 18px;
+  color:rgb(113, 125, 126);
+}
+.con3 .p3 {
+
+  font-size: 18px;
+  color:rgb(81, 90, 90);
+}
+.con3  i{
+
+  font-size: 21px;
+  color:rgb(241, 148, 138 );
+}
+.con3 .p4 {
+
+  font-size: 18px;
+  color:rgb(81, 90, 90);
+
+}
+.con3 .p4 i{
+
+  font-size: 21px;
+  color:rgb(241, 148, 138 );
+}
+.con3 .p5 {
+
+  font-size: 18px;
+  color:rgb(81, 90, 90);
+}
+.con3 .p5 i{
+
+  font-size: 21px;
+  color:rgb(241, 148, 138 );
+}
+.con3 .explore{
+  margin-top: 200px;
+}
+.con .explore h2{
+  font-size: 30px;
+}
+.con3 .explore p{
+
+  font-size: 18px;
+  color:rgb(81, 90, 90);
+}
+
+.con4 .upper{
+  display: flex;
+margin-top: 220px;
+justify-content: center;
+
+}
+.con4 h1{
+  font-size:30px;
+}
+.con4 p{
+  text-align: justify;
+  font-size:15px;
+  color:rgb(81, 90, 90);
+
+}
+.con4 .p2{
+  margin-top: -15px;
+  text-align: center;
+}
+.Macbook{
+  display: flex;
+  justify-content: center;
+margin-top: 100px;
+}
+
+.app{
+  transition: .9s;
+  margin-top: 18px;
+  font-size: 17px;
+
+  color:rgb(165, 105, 189);
+  border: 2px solid rgb(165, 105, 189);
+  background: rgb(255,255,255,0);
+  height: 55px;
+  width:95%;
+}
+.app:hover{
+  transition: .9s;
+  color:white;
+  background: rgb(165, 105, 189);
+}
+.con5{
+  background: url('/Web/Project/Tapeer/img/backgroundWeb3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 760px;
+  position: relative;
+  margin-top:120px;
+}
+
+.con5 .pic{
+  position: absolute;
+  bottom: 0;
+}
+.con5 .pic img{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.con5 .pic2{
+  position: absolute;
+  top:20%;
+  left: 40%;
+overflow: hidden;
+height: 500px
+}
+.con5 .pic2 img{
+  width: 100%;
+}
+.con5 button{
+  width: 15px;
+  height: 15px;
+  border: 2px solid salmon;
+  border-radius: 50%;
+  margin: 1px;
+  outline-style: none;
+}
+.pic img{
+  transition: .5s;
+}
+.coverM {
+  position: relative;
+}
+.quotes1{
+position: absolute;
+transition: 1s;
+
+}
+.quotes2{
+  transition: 1s;
+
+position: absolute;
+left:-800px;
+}
+.quotes3{
+position: absolute;
+right:-800px;
+transition: 1s;
+}
+.block{
+  position: absolute;
+  top:340px;
+  left: 30px;
+}
+.con6{
+  background: url('/Web/Project/Tapeer/img/backgroundWeb4.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 560px;
+  position: relative;
+
+}
+
+.con6 .header{
+  position: relative;
+  margin-top: 100px;
+  height: 460px;
+}
+
+.con6 .header h2{
+ color: white;
+}
+.con6 .header p{
+  margin-top: 30px;
+  color:white;
+  font-size: 18px;
+  line-height: 29px;
+}
+.con6 .header img{
+  border: 2px solid white;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  transition: .5s;
+}
+.con6 .imgB{
+  background: white;
+}
+
+.con6 .bottom{
+  position: relative;
+}
+.con6 .bottom .imgC{
+  position: absolute;
+  left: 30%;
+  bottom: 0;
+  z-index: 1;
+
+}
+.con6 .bottom .imgD{
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+}
+.con7{
+  height:400px;
+    background: rgb(33, 47, 60);
+    color: white;
+}
+.con7 img{
+  margin-top: 70px;
+  width: 70px;
+}
+.con7 .p1{
+  margin-top: 30px;
+  font-size:15px;
+
+color:rgb( 189, 195, 199 );
+}
+.con7 h4{
+  margin-top: 100px;
+  color: white;
+}
+.con7 .header{
+  margin-top:40px;
+
+}
+.con7 .social{
+  color:rgb( 189, 195, 199 );
+}
+
+footer{
+  background: black;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+footer p{
+  margin-top: 10px;
+  font-size: 17px;
+color: white;
+margin-left: 8px;
+}
+footer i{
+  font-size: 17px;
+color: rgb(144, 148, 151)
+}
+footer .taun{
+  font-size: 17px;
+color: rgb(144, 148, 151)
+}
